@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.k.louvrevermin" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Intro"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="BaTwo"></activity>
+        <activity android:name="Ba"></activity>
+        <activity android:name="Ber"></activity>
+        <activity android:name="Bin"></activity>
+        <activity android:name="BinTwo"></activity>
+        <activity android:name="E"></activity>
+        <activity android:name="ETwo"></activity>
+        <activity android:name="Jindgy"></activity>
+        <activity android:name="JindgyTwo"></activity>
+        <activity android:name="Mamy"></activity>
+        <activity android:name="MamyTwo"></activity>
+        <activity android:name="Maus"></activity>
+        <activity android:name="MausTwo"></activity>
+        <activity android:name="Moeny"></activity>
+        <activity android:name="MoenyTwo"></activity>
+        <activity android:name="Mogy"></activity>
+        <activity android:name="MogyTwo"></activity>
+        <activity android:name="No"></activity>
+        <activity android:name="NoTwo"></activity>
+        <activity android:name="Pary"></activity>
+        <activity android:name="ParyTwo"></activity>
+        <activity android:name="Ssar"></activity>
+        <activity android:name="SsarTwo"></activity>
+        <activity android:name="Main"></activity>
+        <activity android:name="Splash"></activity>
+        <activity android:name="Jajac"></activity>
+        <activity android:name="MusicSound"></activity>
+    </application>
+
+</manifest>
